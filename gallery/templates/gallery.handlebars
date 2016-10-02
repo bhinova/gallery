@@ -1,0 +1,14 @@
+    <div id="container-gallery" class="col-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-heading">Gallery</h3>
+            </div>
+            <div id="gallery-images" class="panel-body">
+                {{#images}}
+                    <div class="gallery-item">
+                        <img src="{{name}}" alt="" class="gallery-item-img">
+                        <h4 class="gallery-item-title">{{title}}</h4>
+                    </div>
+                {{/images}}
+            </div>
+    </div>
